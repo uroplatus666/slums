@@ -23,8 +23,10 @@
 - **F1 Score**: 0.82
 - **ROC AUC**: 0.90
 
-<img src="Feature_importance.png" alt="Feature_importance" width="400"/>
+<img src="Feature_importance.png" alt="Feature_importance" width="700"/>
+
 ### Полезные ссылки
+
 **Снимки и индексы**:
 - [Тут](https://drive.google.com/drive/folders/1rUfgtOlT86YXKSvNMUPA2LzRqndE1l9I?usp=sharing) лежат все нужные для модели спектральные индексы в формате .tif
 - [Код](https://github.com/uroplatus666/slums/blob/master/for_GEE.js) для скачивания снимков Sentinel-2, индекса NDVI, NDBI и VIIRS Night-Lights для Бангалора, Мумбаи, Нью-Дели
@@ -61,7 +63,8 @@ __________________________________________________
 ![Bengaluru_area_slums](%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Bengaluru_slums_area.png)
 
 <div style="text-align: center;">
-    <img src="Изображения/Bengaluru_slums_area.png" alt="Bengaluru area slums" width="600"/>
+    <img src="Изображения/Bengaluru_slums_area.png" alt="Bengaluru area slums" width="800"/>
 </div>
+
 
 
