@@ -4,7 +4,7 @@
 Модель обучалась трущобах Мумбаи, скаченных [отсюда](https://data.opencity.in/dataset/mumbai-slum-cluster-map). На всякий случай оставлю ссылку на [файл](https://drive.google.com/file/d/1hcOZ7Tk3SjpKFjH7SsWj8Cubq3sj7gNS/view?usp=sharing).
 
 ### Признаки 
-рассчитывались на каждый тайл 250x250 м
+`рассчитывались на каждый тайл 250x250 м`
 
 - Индекс **NDVI** с разрешением 10 м (как правило у трущоб плотная застройка без растительности, низкие значения индекса укажут ее отсутсвие)
 - Индекс **NDBI** с разрешением 10 м (индекс застройки, современная застройка дает более высокие значения, чем трущобы)
@@ -52,24 +52,24 @@
 __________________________________________________
 ### [Визуализация](https://github.com/uroplatus666/slums/tree/master/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F) по административным зонам и округам, по микрорайонам Бангалор, Мумбаи и Нью-Дели, а также по тайлам 250x250
 
-Несколько примеров:
+`Несколько примеров:`
 
 <div style="text-align: center;">
     <img src="Изображения/Bengaluru_divisions_slums.png" alt="Bengaluru_divisions_slums" width="700"/>
 </div>
------------------------------------------------------------------------
+
 <div style="text-align: center;">
     <img src="Изображения/NewDelhi_zones_slums.png" alt="NewDelhi_zones_slums" width="700"/>
 </div>
-__________________________________________________
+
 <div style="text-align: center;">
     <img src="Изображения/NewDelhi_divisions_all_buildings.png" alt="NewDelhi_divisions_all_buildings" width="700"/>
 </div>
-__________________________________________________
+
 <div style="text-align: center;">
     <img src="Изображения/Mumbai_wards_slums.png" alt="Mumbai_wards_slums" width="700"/>
 </div>
-__________________________________________________
+
 <div style="text-align: center;">
     <img src="Изображения/Bengaluru_slums_area.png" alt="Bengaluru area slums" width="700"/>
 </div>
