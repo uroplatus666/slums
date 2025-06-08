@@ -57,7 +57,7 @@ __________________________________________________
 <div style="text-align: center;">
     <img src="Изображения/Bengaluru_divisions_slums.png" alt="Bengaluru_divisions_slums" width="700"/>
 </div>
-__________________________________________________
+-----------------------------------------------------------------------
 <div style="text-align: center;">
     <img src="Изображения/NewDelhi_zones_slums.png" alt="NewDelhi_zones_slums" width="700"/>
 </div>
