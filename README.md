@@ -1,7 +1,7 @@
 # Выделение трущобной застройки в трех городах Индии: Бангалоре, Мумбаи, Нью-Дели с помощью ML модели
 Полученные результаты были агрегированы по районам
 
-Модель обучалась трущобах Мумбаи, скаченных [отсюда](https://data.opencity.in/dataset/mumbai-slum-cluster-map). На всякий случай оставлю ссылку на [файл](https://drive.google.com/file/d/1hcOZ7Tk3SjpKFjH7SsWj8Cubq3sj7gNS/view?usp=sharing).
+Модель обучалась на трущобах Мумбаи, скаченных [отсюда](https://data.opencity.in/dataset/mumbai-slum-cluster-map). Ссылка на [файл](https://drive.google.com/file/d/1hcOZ7Tk3SjpKFjH7SsWj8Cubq3sj7gNS/view?usp=sharing) в формате GeoJson.
 
 ### Признаки 
 `рассчитывались на каждый тайл 250x250 м`
