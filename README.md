@@ -10,7 +10,7 @@
 - Индекс **NDBI** с разрешением 10 м (индекс застройки, современная застройка дает более высокие значения, чем трущобы)
 - Индекс **IBI** с разрешением 10 м (индекс застройки, «гасит» ложные срабатывания NDBI на голом грунте и воде)
 - **GLCM** (Gray-Level Co-occurrence Matrix) с разрешением 10 м (это текстурный признак, который используется для анализа пространственной неоднородности изображений. Высокое значение этого признака указывает на хаотичную, «пёструю» сцену (типично для трущоб))
-- VIIRS **Night-Lights** с разрешением 500 м (низкая освещённость → вероятная неформальная застройка)
+- **VIIRS Night-Lights** с разрешением 500 м (низкая освещённость → вероятная неформальная застройка)
 - Количество зданий
 - Медианная площадь зданий
 - Доля домов, площадь которых меньше 40 м^2
@@ -40,13 +40,15 @@
 - Готовые обрезанные [слои](https://drive.google.com/drive/folders/1L2mQwBK6C0H6fDbUyJsoLJb91kYvo0Zl?usp=sharing) со зданиями на Бангалор, Мумбаи и Нью-Дели
 
 **Модель**:
-- [Обучение](https://github.com/uroplatus666/slums/blob/master/model_train_mumbai.ipynb) модели Random Forest
+- [Обучение](https://github.com/uroplatus666/slums/blob/master/model_train_mumbai.ipynb) модели Random Forest и создание визуализации для Мумбаи
 - [Сохраненная модель](https://drive.google.com/drive/folders/17ETUdznTL6kFhz-lSmefbYuHLNjRl2pz?usp=sharing) в формате pkl
+- Предсказание трущобной застройки и созданием визуализации для [Бангалора](https://github.com/uroplatus666/slums/blob/master/Bangalore.ipynb) и [Нью-Дели](https://github.com/uroplatus666/slums/blob/master/Delhi.ipynb)
 
 **Другое**:
 - [Агрегированные данные](https://drive.google.com/drive/folders/1e8_a0pz8wQ8Ykb1OvuHSe4rEip4B53nX?usp=sharing) по тайлам 250x250 м
 - [Агрегированные данные](https://drive.google.com/drive/folders/1RPS4GJBqTuIGpdgDG833XnPW-w5pznd5?usp=sharing) по административным зонам и округам, по микрорайонам
 - [Границы](https://github.com/uroplatus666/slums/tree/master/%D0%93%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B) городов, их административных зон, административных округов и микрорайонов
+
 __________________________________________________
 ### [Визуализация](https://github.com/uroplatus666/slums/tree/master/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F) по административным зонам и округам, по микрорайонам Бангалор, Мумбаи и Нью-Дели, а также по тайлам 250x250
 
@@ -65,7 +67,7 @@ __________________________________________________
 </div>
 
 <div style="text-align: center;">
-    <img src="Изображения/Mumbai_wards_slums" alt="Mumbai_wards_slums" width="800"/>
+    <img src="Изображения/Mumbai_wards_slums.png" alt="Mumbai_wards_slums" width="800"/>
 </div>
 
 <div style="text-align: center;">
