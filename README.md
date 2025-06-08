@@ -52,19 +52,20 @@ __________________________________________________
 
 Несколько примеров:
 
-![Bengaluru_divisions_slums](%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Bengaluru_divisions_slums.png){: style="width:400px;"}
-
-![NewDelhi_zones_slums](%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/NewDelhi_zones_slums.png)
-
-![NewDelhi_zones_slums](%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/NewDelhi_divisions_all_buildings.png)
-
-![Mumbai_wards_slums](%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Mumbai_wards_slums.png)
-
-![Bengaluru_area_slums](%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Bengaluru_slums_area.png)
-
+<div style="text-align: center;">
+    <img src="Изображения/Bengaluru_divisions_slums.png" alt="Bengaluru_divisions_slums" width="800"/>
+</div>
+<div style="text-align: center;">
+    <img src="Изображения/NewDelhi_zones_slums.png" alt="NewDelhi_zones_slums" width="800"/>
+</div>
+<div style="text-align: center;">
+    <img src="Изображения/NewDelhi_divisions_all_buildings.png" alt="NewDelhi_divisions_all_buildings" width="800"/>
+</div>
+<div style="text-align: center;">
+    <img src="Изображения/Mumbai_wards_slums" alt="Mumbai_wards_slums" width="800"/>
+</div>
 <div style="text-align: center;">
     <img src="Изображения/Bengaluru_slums_area.png" alt="Bengaluru area slums" width="800"/>
 </div>
-
 
 
