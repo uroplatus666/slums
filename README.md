@@ -28,7 +28,7 @@
 ### Полезные ссылки
 
 **Снимки и индексы**:
-- [Тут](https://drive.google.com/drive/folders/1rUfgtOlT86YXKSvNMUPA2LzRqndE1l9I?usp=sharing) лежат все нужные для модели спектральные индексы в формате .tif
+- [Тут](https://drive.google.com/drive/folders/1rUfgtOlT86YXKSvNMUPA2LzRqndE1l9I?usp=sharing) лежат все нужные для модели спектральные индексы в формате TIF
 - [Код](https://github.com/uroplatus666/slums/blob/master/for_GEE.js) для скачивания снимков Sentinel-2, индекса NDVI, NDBI и VIIRS Night-Lights для Бангалора, Мумбаи, Нью-Дели
 - [Функция обрезки](https://github.com/uroplatus666/slums/blob/master/Features_prep.ipynb) снимков по маске городов
 - Расчет IBI и GLCM для [Нью-Дели](https://github.com/uroplatus666/slums/blob/master/Delhi.ipynb), [Бангалора](https://github.com/uroplatus666/slums/blob/master/Bangalore.ipynb), [Мумбаи](https://github.com/uroplatus666/slums/blob/master/model_train_mumbai.ipynb)
