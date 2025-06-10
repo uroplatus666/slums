@@ -6,7 +6,7 @@
 ### Признаки 
 `рассчитывались на каждый тайл 250x250 м`
 
-- Индекс **NDVI** с разрешением 10 м (как правило у трущоб плотная застройка без растительности, низкие значения индекса укажут ее отсутсвие)
+- Индекс **NDVI** с разрешением 10 м (как правило у трущоб плотная застройка без растительности, низкие значения индекса укажут ее отсутствие)
 - Индекс **NDBI** с разрешением 10 м (индекс застройки, современная застройка дает более высокие значения, чем трущобы)
 - Индекс **IBI** с разрешением 10 м (индекс застройки, «гасит» ложные срабатывания NDBI на голом грунте и воде)
 - **GLCM** (Gray-Level Co-occurrence Matrix) с разрешением 10 м (это текстурный признак, который используется для анализа пространственной неоднородности изображений. Высокое значение этого признака указывает на хаотичную, «пёструю» сцену (типично для трущоб))
@@ -29,7 +29,7 @@ __________________________________________________
 ### Полезные ссылки
 
 **Снимки и индексы**:
-- [Тут](https://drive.google.com/drive/folders/1rUfgtOlT86YXKSvNMUPA2LzRqndE1l9I?usp=sharing) лежат все нужные для модели спектральные индексы в формате TIF
+- [Тут](https://disk.360.yandex.ru/d/cS_nvjzUcs3AOg) лежат все нужные для модели спектральные индексы в формате TIF
 - [Код](https://github.com/uroplatus666/slums/blob/master/for_GEE.js) для скачивания снимков Sentinel-2, индекса NDVI, NDBI и VIIRS Night-Lights для Бангалора, Мумбаи, Нью-Дели
 - [Функция обрезки](https://github.com/uroplatus666/slums/blob/master/Features_prep.ipynb) снимков по маске городов
 - Расчет IBI и GLCM для [Нью-Дели](https://github.com/uroplatus666/slums/blob/master/Delhi.ipynb), [Бангалора](https://github.com/uroplatus666/slums/blob/master/Bangalore.ipynb), [Мумбаи](https://github.com/uroplatus666/slums/blob/master/model_train_mumbai.ipynb)
@@ -38,7 +38,7 @@ __________________________________________________
 - Слои с застройкой были скачены с [microsoft](https://github.com/microsoft/GlobalMLBuildingFootprints/tree/main), данных там сильно больше, чем в OSM
 - [Функция выгрузки](https://github.com/uroplatus666/slums/blob/master/downloading_jsons.ipynb) GeoJson файлов с домами на всю Индию, [алгоритм поиска](https://github.com/uroplatus666/slums/blob/master/jsons_finder.ipynb) нужных слоев
 - [Обрезка](https://github.com/uroplatus666/slums/blob/master/Features_prep.ipynb) по маскам городов и добавление домов из OSM для Мумбаи, в местах отсутствия домов с microsoft
-- Готовые обрезанные [слои](https://drive.google.com/drive/folders/1L2mQwBK6C0H6fDbUyJsoLJb91kYvo0Zl?usp=sharing) со зданиями на Бангалор, Мумбаи и Нью-Дели
+- Готовые обрезанные [слои](https://disk.360.yandex.ru/d/FB34aANnWWB6JA) со зданиями на Бангалор, Мумбаи и Нью-Дели
 
 **Модель**:
 - [Обучение](https://github.com/uroplatus666/slums/blob/master/model_train_mumbai.ipynb) модели Random Forest и создание визуализации для Мумбаи
